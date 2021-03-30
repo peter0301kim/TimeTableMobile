@@ -16,6 +16,7 @@
 [Barcode Sample](https://1drv.ms/v/s!AgwrFyGtO33_h3Qc4BdEyaQlBQdc?e=6QyCqx)
 
 
+<!--
 - Deployment
 
    [Mobile App-Android]
@@ -23,3 +24,4 @@
 <a href='https://play.google.com/store/apps/details?id=com.tafesa&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://github.com/peter0301kim/Xamarin_Timetable/blob/main/google-play-badge.png'/></a>
 
    - Identity : Peter/Peter@1 (Valid until 30-Dec-2019)
+-->
