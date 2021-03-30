@@ -11,7 +11,7 @@
 
 [Xamarin Mobile App - Dependency Injection](https://1drv.ms/w/s!AgwrFyGtO33_h24msRj_UU5GRBqO?e=EUSHQY)
 
-![Page Views](https://github.com/peter0301kim/Xamarin_Timetable/blob/main/Images.PNG)
+![Page Views](https://github.com/peter0301kim/TimeTableMobile/blob/main/Images.PNG)
 
 [Barcode Sample](https://1drv.ms/v/s!AgwrFyGtO33_h3Qc4BdEyaQlBQdc?e=6QyCqx)
 
