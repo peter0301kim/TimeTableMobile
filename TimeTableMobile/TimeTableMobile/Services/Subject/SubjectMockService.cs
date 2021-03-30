@@ -17,11 +17,11 @@ namespace TimeTableMobile.Services.Subject
 
         private ObservableCollection<Models.Subject> MockSubjects = new ObservableCollection<Models.Subject>()
         {
-            new Models.Subject { subjectId = "5C#W", subjectName = "C# for Web Development" },
-            new Models.Subject { subjectId = "5DD", subjectName = "Database Design" },
-            new Models.Subject { subjectId = "5EWD", subjectName = "E-Commerce Website Development" },
-            new Models.Subject { subjectId = "5JAW", subjectName = "Java for Web - Basics" },
-            new Models.Subject { subjectId = "5TSD", subjectName = "Team Software Development" }
+            new Models.Subject { SubjectId = "5C#W", SubjectName = "C# for Web Development" },
+            new Models.Subject { SubjectId = "5DD", SubjectName = "Database Design" },
+            new Models.Subject { SubjectId = "5EWD", SubjectName = "E-Commerce Website Development" },
+            new Models.Subject { SubjectId = "5JAW", SubjectName = "Java for Web - Basics" },
+            new Models.Subject { SubjectId = "5TSD", SubjectName = "Team Software Development" }
         };
 
         public async Task<ObservableCollection<Models.Subject>> GetAllSubjectsAsync(string sId, string token)
@@ -36,7 +36,7 @@ namespace TimeTableMobile.Services.Subject
                 }
                 else
                 {
-                    var tmpS = MockSubjects.Where(s => s.subjectId.Contains(sId));
+                    var tmpS = MockSubjects.Where(s => s.SubjectId.Contains(sId));
                     ObservableCollection<Models.Subject> subjects = new ObservableCollection<Models.Subject>(tmpS);
                     return subjects;
                 }

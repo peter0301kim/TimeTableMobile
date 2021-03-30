@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace TimeTableMobile.Models
 {
+
     public class Subject
     {
         private string _subjectId;
         private string _subjectName;
 
         [JsonProperty("SubjectCode")]
-        public string subjectId
+        public string SubjectId
         {
             get { return _subjectId; }
             set
@@ -22,7 +23,7 @@ namespace TimeTableMobile.Models
         }
 
         [JsonProperty("SubjectDescription")]
-        public string subjectName
+        public string SubjectName
         {
             get { return _subjectName; }
             set
@@ -37,8 +38,8 @@ namespace TimeTableMobile.Models
 
         public Subject(string subjectId, string subjectName)
         {
-            this.subjectId = subjectId;
-            this.subjectName = subjectName;
+            this.SubjectId = subjectId;
+            this.SubjectName = subjectName;
         }
         public Subject() : this(DEF_SUBJECT_ID, DEF_SUBJECT_NAME)
         {
@@ -48,4 +49,5 @@ namespace TimeTableMobile.Models
 
 
     }
+
 }

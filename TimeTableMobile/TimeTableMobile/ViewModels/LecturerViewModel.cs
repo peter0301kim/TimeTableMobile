@@ -23,6 +23,7 @@ namespace TimeTableMobile.ViewModels
         private string Url = "https://rntwebservicefortafesa20190611083115.azurewebsites.net/api/lecturer";
 
         Lecturer _lecturer = new Lecturer();
+        ILecturerService LecturerService;
 
         private ObservableCollection<Lecturer> _lecturers;
         public ObservableCollection<Lecturer> Lecturers
@@ -31,7 +32,6 @@ namespace TimeTableMobile.ViewModels
             set { SetProperty(ref _lecturers, value); }
         }
 
-        ILecturerService LecturerService;
 
         public LecturerViewModel()
         {

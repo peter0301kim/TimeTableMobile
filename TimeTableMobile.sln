@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTableMobile.Android", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTableMobile.iOS", "TimeTableMobile\TimeTableMobile.iOS\TimeTableMobile.iOS.csproj", "{0CCEAC60-C0A6-4C8D-AE07-93806860C2CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTableMobile", "TimeTableMobile\TimeTableMobile\TimeTableMobile.csproj", "{6FA232A0-A098-4BB2-8C2A-932E2460CFDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeTableMobile", "TimeTableMobile\TimeTableMobile\TimeTableMobile.csproj", "{6FA232A0-A098-4BB2-8C2A-932E2460CFDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
