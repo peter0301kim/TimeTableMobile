@@ -22,7 +22,7 @@ namespace TimeTableMobile.Services.LogIn
         public async Task<string> CheckCredentials(string userId, string password)
         {
             var client = new RestClient(ApiLogInUrl);
-            var request = new RestRequest(Method.POST);
+            var request = new RestRequest(ApiLogInUrl, Method.Post);
 
             string token = "";
             try
@@ -37,7 +37,7 @@ namespace TimeTableMobile.Services.LogIn
 
                 request.AddJsonBody(inputData);
 
-                IRestResponse response = await client.ExecuteAsync(request);
+                RestResponse response = await client.ExecuteAsync(request);
                 if (response.StatusCode != HttpStatusCode.OK)
                 {
                     throw new Exception(response.Content.ToString());
